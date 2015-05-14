@@ -1,0 +1,7 @@
+#professional ul li:nth-child(4),
+#professional ul li:nth-child(7),
+#professional ul li:nth-child(10),
+#professional ul li:nth-child(11),
+#professional ul li:nth-child(12) {
+	width: 100%;
+}

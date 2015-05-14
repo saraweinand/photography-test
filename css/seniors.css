@@ -1,13 +1,12 @@
-#seniors .portfolio-left 
-li:nth-child(4),
-li:nth-child(7),
-li:nth-child(14),
-li:nth-child(19),
-li:nth-child(24),
-li:nth-child(27),
-li:nth-child(30),
-li:nth-child(33),
-li:nth-child(34)
+#seniors .portfolio-left li:nth-child(4),
+#seniors .portfolio-left li:nth-child(7),
+#seniors .portfolio-left li:nth-child(14),
+#seniors .portfolio-left li:nth-child(19),
+#seniors .portfolio-left li:nth-child(24),
+#seniors .portfolio-left li:nth-child(27),
+#seniors .portfolio-left li:nth-child(30),
+#seniors .portfolio-left li:nth-child(33),
+#seniors .portfolio-left li:nth-child(34)
  {
   width: 100%
 }
