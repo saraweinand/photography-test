@@ -1,0 +1,121 @@
+/* ---- contact ---- */
+
+.contact_container {
+	display: inline-block;
+	margin: 2.5em 1em 0 0;
+	z-index: -1;
+}
+
+.contact_container iframe {
+	z-index: -9999;
+	display: block;
+	width: 49%;
+	height: 90vh;
+	float: left;
+	margin: 1em 0 0em 0;
+	-webkit-filter: grayscale(50%) contrast(100%);
+	
+}
+
+.contactinfo {
+	width: 40%;
+	float: right;
+	margin: 1em 5% 0 0;
+	text-align: left;
+	font-weight: 300;
+}
+
+.contactinfo h2,
+.contact_container h2 {
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: 400;
+	font-size: 1.25em
+}
+
+.contactinfo h3 {
+	width: 100%;
+	float: left;
+	margin: 10% 0 1% -1%;
+	font-size: 3em;
+	font-weight: 300;
+}
+
+.contactinfo h4 {
+	margin: 0;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.contactinfo em {
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.details {
+	width: 40%;
+	display: inline-block;
+	float: left;
+	border-left: 5px solid white;
+	padding-left: 1em;
+	margin: 5% 5% 0 0;
+}
+
+
+.emailform h2 {
+	margin-top: 1em;
+}
+
+.emailform em {
+	font-weight: 300;
+	padding-bottom: 3em;
+}
+
+
+.contact_container form {
+	width: 100%;
+	margin: 5% 5% 0 0;
+	float: right;
+}
+
+.contact_container form input{
+	width: 100%;
+	display: left;
+	height: 2em;
+	margin: 1% 0 1% 5%;
+	background: #dbdbdb;
+
+}
+
+.contact_container form textarea{
+	width: 100%;
+	height: 12em;
+	display: inline-block;
+	float: left;
+	margin: .5% 0 0 5%;
+	background: #E0E0E0;
+
+}
+
+.contact_container input:first-of-type {
+	margin-top: 1.5em;
+}
+
+.contact_container input:last-of-type {
+	color: white;
+	width: 25%;
+	float: right;
+	height: 3em;
+	background: none;
+	border: 1px solid white;
+	margin: 1em -.5em 0 0;
+}
+
+.contact_container input:last-of-type:hover {
+	color: black;
+	background: #fff;
+}
+
+.contact_container {
+	z-index: -1000000;
+}

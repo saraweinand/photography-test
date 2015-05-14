@@ -1,0 +1,827 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	max-width: 1400px;
+	margin: 0 auto;
+	color: white;
+	width: 100%;
+	font-family: "Lato",sans-serif;
+	display: block;
+	margin: 0 auto;
+	background: #3f3f3f;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------
+***                  	  *         ***       ***    **********     ***        ***  **************
+***                      ***		 ***     ***    ************    ***        ***  **************
+***                     *****         ***   ***    ***        ***   ***        ***       ***
+***                    *** ***         *** ***     ***        ***   ***        ***       ***
+***                   ***   ***	        *****      ***        ***   ***        ***       ***
+***                  ***     ***	     ***       ***        ***   ***        ***       ***
+***                 *************        ***       ***        ***   ***        ***       ***
+***                ***************       ***       ***        ***   ***        ***       ***
+***               ***           ***      ***       ***        ***   ***        ***       ***
+*************    ***             ***     ***        ************     ************        ***
+*************   ***               ***    ***         **********       **********         ***
+-------------------------------------------------------------------------------------------------------------------*/
+
+
+.section-left {
+	width: 20%;
+	height: 100%;
+	display: inline-block;
+	float: right;
+	margin: 0 -2.5em 2em 0;
+	position: fixed;
+
+
+}
+
+
+.section-right {
+	width: 80%;
+	float: right;
+	z-index: 99999;
+	background: #474747;
+}
+
+.logo {
+	width: 40%;
+	opacity: .9;
+	display: inline-block;
+	margin: 20% auto 1em auto;
+	z-index: 999;
+
+}
+
+.title {
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+
+
+.title h3 {
+	font-family: Papyrus;
+	font-weight: 400;
+	margin: 0;
+	font-size: 1.25em;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.title h4 {
+	font-weight: 300;
+	margin: 0 0 2em 0;
+	font-size: .75em;
+	text-transform: uppercase;
+}
+
+.title h5 {
+	font-size: .75em;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin: 0;
+}
+
+
+/***********************************************
+**      **       *   **         **  
+****    **      ***   **       **
+** **   **     ** **   **     **
+**  **  **    **   **   **   **
+**   ** **   *********   ** **
+**    ****  **       **   ***
+**      ** **         **   *
+***********************************************/
+
+
+.section-left .socialmedia {
+	position: fixed;
+	bottom: 0;
+	border-top: 1px solid #fff;
+	width: 19%;
+	margin-left: -2em;
+	padding-left: 1em;
+}
+
+.section-left .socialmedia li {
+	display: inline-block;
+	margin: 1em;
+}
+
+.socialmedia img {
+	height: 2em;
+}
+
+.socialmedia li:first-of-type {
+	margin-right: -.5em;
+}
+
+
+
+
+nav {
+	font-size: 1em;
+	left: 0;
+	position: fixed;
+	display: block;
+	width: 85%;
+	float: left;
+	background: #3f3f3f;
+	z-index: 9999999;
+	margin: 15% 0 0 10% ;
+	position: relative;
+	text-align: left;
+}
+
+nav ul {
+	margin-right: 1em;
+	list-style: none;
+	padding-left: 0;
+}
+
+nav li {
+	display: block;
+	padding: 1em 0 0 0;
+	margin: 1em 0;
+	border-top: 1px solid #4b4b4b;
+}
+
+
+nav li:last-of-type {
+	border-bottom: 1px solid #4b4b4b;
+}
+
+nav li:last-of-type {
+	padding-bottom: 1em;
+}
+
+nav li a {
+	font-weight: 300;
+	font-size: .75em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #f1f1f2;
+}
+
+nav li a:hover {
+	color: #94b5ad;
+}
+
+nav li a:active {
+	color: #94b5ad;
+}
+
+
+.socialmedia a img {
+	height: 1.5em;
+	display: inline-block;
+	float: left;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------ 
+***      ***    **********    ***       ***   ************
+***      ***   ************   *****   *****   ************
+***      ***   ***      ***   ****** ******   ***
+***      ***   ***      ***   *************   ***
+************   ***      ***   ***  ***  ***   **********
+************   ***      ***   ***   *   ***   **********
+***      ***   ***      ***   ***       ***   ***
+***      ***   ***      ***   ***       ***   ***
+***      ***   ************   ***       ***   ************
+***      ***	**********    ***       ***   ************
+------------------------------------------------------------------------------------ */
+
+.camera_container #camera_wrap_1{
+	height: 100vh;
+	overflow: hidden;
+	float: right;
+	display: inline-block;
+	margin: 0;
+	z-index: -1;
+
+}
+
+.home .section-right {
+	background: none;
+}
+
+.home .section-right {
+	overflow: hidden;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------ 
+**********     *************    **********
+***********    *************   ************
+***      ***        ***        ***      ***
+***       ***       ***        ***      ***
+***      ***        ***        ***      ***
+***********         ***        ***      ***
+***********         ***        ***      ***
+***      ***        ***        ***      ***
+***       ***       ***        ***      ***
+***      ***        ***        ***      ***
+***********    *************   ************
+**********     *************    **********  
+------------------------------------------------------------------------------------ */
+
+.contact_container {
+	display: inline-block;
+	margin: 2.5em 1em 0 0;
+	z-index: -1;
+}
+
+.contactinfo {
+	width: 70%;
+	margin: 1em auto;
+	text-align: left;
+	font-weight: 300;
+	display: block;
+}
+
+
+.contact p {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	font-size: 1em;
+}
+
+
+.about .contactinfo {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.about .contactinfo h4 {
+	font-size: 1.6em;
+	font-weight: 300;
+	width: 60%;
+	text-align: center;
+	margin: 5% auto;
+	font-style: italic;
+	line-height: 1.25em;
+
+}
+
+.contact .section-right img {
+	width: 95%;
+	display: block;
+	margin: 2% auto;
+}
+
+
+.contactinfo h3, .aboutbarb h3 {
+	font-size: 2em;
+	font-weight: 300;
+	padding: 0;
+	margin: 1em 0 0 0;
+	text-align: center;
+}
+
+
+.contactinfo h5 {
+	font-size: 1em;
+	text-align: center;
+	width: 100%;
+	font-style: italic;
+	font-weight: 300;
+	margin-top: 2em;
+	padding-top: 0;
+
+}
+
+.contactinfo h6 {
+	font-size: 1em;
+	text-align: center;
+	width: 100%;
+	font-weight: 400;
+	margin: 0em 0 .25em 0;
+	padding-top: 0;
+}
+
+.contactinfo h4 {
+	margin: 0;
+	font-size: 1em;
+	font-weight: 300;
+	text-align: center;
+}
+
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+	width: 5%;
+	margin: .5em auto 0 auto;
+}
+
+
+.contactinfo em {
+	font-size: 1em;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+.details_container {
+	width: 70%;
+	margin: 2% auto 5% auto;
+}
+
+.details {
+	width: 30%;
+	display: inline-block;
+	padding-left: 1em;
+	margin: 2.5% 5% 5% 0;
+}
+
+.details li img {
+	width: 2em;
+}
+
+.details:first-of-type {
+	float: right;
+}
+
+.details:last-of-type {
+	float: left;
+}
+
+.bio {
+	width: 90%;
+	float: right;
+	margin-left: 1%;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------
+  *********     **********   ***         ***  *************  *****              *********     *************  
+ ***********   ************  ****        ***  *************  ******            ***********    *************
+***       ***  ***      ***  *****       ***       ***       *** ***          ***       ***        ***
+***       ***  ***      ***  ******      ***       ***       ***  ***         ***       ***        ***
+***            ***      ***  ***  ***    ***       ***       ***   ***        ***                  ***
+***            ***      ***  ***   ***   ***       ***       ***    ***       ***                  ***
+***            ***      ***  ***    ***  ***       ***       ***********      ***                  ***
+***            ***      ***  ***     *** ***       ***       ************     ***                  ***
+***       ***  ***      ***  ***      ******       ***       ***       ***    ***       ***        ***
+***       ***  ***      ***  ***       *****       ***       ***        ***   ***       ***        ***
+ ***********   ************  ***        ****       ***       ***         ***   ***********         ***
+  *********     **********   ***         ***       ***       ***          ***   *********          ***
+-------------------------------------------------------------------------------------------------------------- */
+
+
+.form {
+	display: block;
+	margin: 5% auto;
+	width: 80%;
+	color: black;
+}
+
+.form input::-webkit-input-placeholder {
+   color: #ddd;
+   font-style: italic;
+   text-indent: .5em;
+
+}
+
+.form textarea::-webkit-input-placeholder {
+   color: #ddd;
+   font-style: italic;
+   text-indent: .5em;
+   padding: .5em 0 0 0;
+
+}
+
+#name, #email, #phone, #session {
+	width: 48%;
+	display: inline-block;
+	margin: 1em .5% 0 .5%;
+	height: 2em;
+}
+
+#message {
+	width: 98%;
+	height: 10em;
+	margin: 1em .5% 0 .5%;
+}
+
+#submitbutton {
+	width: 20%;
+	float: right;
+	height: 2em;
+	border: 1px solid white;
+	background: none;
+	margin: 1% 1% 15% 1%;
+	color: white;
+}
+
+#submitbutton:hover {
+	background: #ddd;
+	color: black;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------ 
+									PROOFS 
+------------------------------------------------------------------------------------ */
+
+.proofsform {
+	width: 100%;
+	float: left;
+	height: 100vh;
+}
+
+.proofs_container img {
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.proofs_container h3 {
+	text-transform: uppercase;
+	font-size: .8em;
+}
+
+.proofs_container form {
+	width: 25%;
+	display: block;
+	margin: 25% auto 0 auto;
+}
+
+.proofs_container form input{
+	width: 100%;
+	display: left;
+	height: 2em;
+	margin: 2% 0 1% 0;
+	background: #fff;
+
+}
+
+.proofsform input::-webkit-input-placeholder {
+   color: #ddd;
+   font-style: italic;
+   text-indent: .5em;
+   font-size: .9em;
+   font-weight: 300;
+
+}
+
+
+.proofsform form a {
+	text-align: right;
+}
+
+.proofsform #submit {
+	color: white;
+	width: 40%;
+	float: right;
+	height: 2em;
+	background: none;
+	border: 1px solid white;
+	margin: 1em -.5em 0 0;
+	padding: 0;
+}
+
+.proofsform #submit:hover {
+	color: black;
+	background: #fff;
+}
+
+.forgotpassword {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-decoration: none;
+	padding-right: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     *************       ************     *************     ***************   ************     ************     ***           *************       ************
+     **************     **************    **************    ***************   ************    **************    ***           *************      ************** 
+     ***         ***   ***          ***   ***         ***         ***         ***            ***          ***   ***                ***          ***          ***
+     ***         ***   ***          ***   ***         ***         ***         ***            ***          ***   ***                ***          ***          ***
+     ***         ***   ***          ***   ***         ***         ***         ************   ***          ***   ***                ***          ***          ***
+     **************    ***          ***   **************          ***         ************   ***          ***   ***                ***          ***          ***
+     *************     ***          ***   *************           ***         ***            ***          ***   ***                ***          ***          ***
+     ***               ***          ***   ***      ***            ***         ***            ***          ***   ***                ***          ***          ***
+     ***               ***          ***   ***       ***           ***         ***            ***          ***   ***                ***          ***          ***
+     ***				**************    ***        ***          ***         ***             **************    ************  *************      ************** 
+     ***                 ************     ***         ***         ***         ***              ************     ************  *************       ************
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.portfolio-left {
+  width: 60%;
+  float: left;
+}
+
+.portfolio-left ul li {
+	display: inline-block;
+	width: 49.75%;
+}
+
+.portfolio-left li:first-of-type {
+  width: 100%;
+
+}
+
+.portfolio-left li img {
+	width: 100%;
+
+}
+
+.portfolio-right {
+  width: 40%;
+  float: left;
+  padding: 0;
+}
+
+.portfolio-right li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.portfolio-right img {
+  width: 100%;
+  margin-left: .25em;
+
+}
+
+.portfolio-right li:nth-child(7) {
+	width: 100%;
+}
+
+
+.portfolio-right li {
+	width: 100%;
+}
+
+.portfolio-right li:nth-child(5) {
+	width: 100%;
+}
+
+
+.projects {
+	position: relative;
+}
+
+.img-title {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+.img-title h4 {
+	font-weight: 500;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px #000;
+	font-family: 'Papyrus';
+	padding-top: 1em;
+}
+
+.img-title a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/* ------------------------------------------------------------------------------------ 
+									MEDIA QUERIES 
+------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 768px) { 
+
+	.section-left {
+	width: 100%;
+	position: static;
+	}
+
+	.section-right {
+		width: 100%;
+	}
+
+	.title {
+		width: 100%;
+		display: block;
+		margin: -5% auto -4% auto;
+		text-align: center;
+	}
+
+	.title h5 {
+		display: none;
+	}
+
+	.section-right nav {
+		width: 100%;
+		position: static;
+	}
+
+	.section-right nav ul {
+		width: 65%;
+		display: block;
+		margin: 5% auto 0 auto;
+
+	}
+
+	.section-right nav ul.socialmedia {
+		width: 20%;
+		display: block;
+		margin: 5% auto 0 auto;
+		float: right;
+		text-align: right;
+
+	}
+
+
+
+	.logo {
+		width: 20%;
+	}
+
+	.booksession {
+		position: fixed;
+		bottom: 0;
+		margin: 0;
+		padding: 1em;
+	}
+
+	.camera_container #camera_wrap_1{
+		height: 100%;
+		overflow: hidden;
+		float: right;
+		display: block;
+		margin: 2% 0 0 0;
+		z-index: -1;
+
+	}
+
+	footer {
+		display: none;
+	}
+
+
+	.portfolio-left {
+		margin: 0;
+	}
+
+	body.portfolio .section-right {
+		margin-bottom: 10%;
+	}
+
+	.biocontact_container img {
+		width: 100%;
+		margin-top:5%;
+	}
+
+	.contactinfo {
+		width: 80%;
+		padding: 0 10%;
+		margin: 0 0 5% 0;
+		text-align: center;
+	}
+
+	.contact_container form {
+		width: 80%;
+		padding: 0 10%;
+		margin: 0 0 10% 0;
+	}
+	.biocontact_container p {
+		width: 95%;
+	}
+
+	.biocontact_container p:last-of-type {
+		margin-bottom: 15%;
+	}
+
+
+}
+
+@media screen and (max-width: 480px) { 
+
+	.section-right nav {
+		width: 100%;
+		position: static;
+	}
+
+	.section-right nav ul {
+		width: 70%;
+		display: inline-block;
+		margin: 5% 0 0 0;
+
+	}
+
+	.section-right nav ul.socialmedia {
+		display: none;
+
+	}
+
+
+	.portfolio_container {
+		margin: -5% 0 0 0;
+		padding: 0;
+	}
+	.portfolio-left {
+		width: 100%;
+	}
+
+	.portfolio-right {
+		width: 100%;
+		margin-top: -8%;
+	}
+
+	.biocontact_container img {
+		width: 100%;
+		margin-top:5%;
+	}
+
+	.contactinfo {
+		width: 85%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.contactinfo h3 {
+		text-align: center;
+		margin: 5% 0 2% 3%;
+		padding: 0;
+	}
+
+	.contactinfo .details {
+		text-align: left;
+		margin-left: 10%;
+	}
+
+	.biocontact_container p {
+		width: 95%;
+		margin: 5% 5% 10% 5%;
+	}
+
+	.biocontact_container p:last-of-type {
+		margin-bottom: 25%;
+	}
+
+	.details {
+		width: 90%;
+		margin: 0 5% 5% 5%;
+	}
+
+	.contact_container form {
+		margin: 0 0 20% 0;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*CLEARFIX*/
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
